@@ -24,12 +24,17 @@ Este script construye la base de datos normalizada que permite responder esa pre
 
 ## Contenido del repositorio
 
-| Archivo | Descripción |
-|---|---|
-| `modulo3/ventas_tech_db.sql` | Script completo: DROP + DDL + DML + consultas de validación |
-| `README.md` | Este archivo |
+| Archivo | Módulo | Descripción |
+|---|---|---|
+| `modulo2/modulo2_unidad1_diseno.sql` | M2 · Unidad 1 | Práctica de diseño de esquemas: `CREATE TABLE` de `clientes` y `productos` con justificación de cada tipo de dato |
+| `modulo3/ventas_tech_db.sql` | M3 · Checkpoint | Script completo del proyecto: DROP + DDL + DML + consultas de validación |
+| `README.md` | — | Este archivo |
 
-El script está dividido en cuatro secciones comentadas:
+> El entregable principal del proyecto integrador es
+> **`modulo3/ventas_tech_db.sql`**. El archivo de `modulo2/` corresponde a un
+> ejercicio de práctica independiente, con su propio enunciado y sus propias tablas.
+
+El script del Módulo 3 está dividido en cuatro secciones comentadas:
 
 1. **DROP** — elimina las tablas si existen, en orden inverso a las dependencias
 2. **DDL** — crea las cinco tablas con sus PK, FK y restricciones `NOT NULL`
